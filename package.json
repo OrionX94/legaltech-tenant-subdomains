@@ -1,0 +1,14 @@
+{
+  "name": "legaltech-tenant-subdomains",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/tenant-intake.ts",
+    "test": "node --experimental-strip-types src/tenant-intake.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
